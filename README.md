@@ -1,1 +1,5 @@
-# [Bash Scripting](https://linuxhandbook.com/tag/bash-beginner/)
+# Bash Scripting
+
+Reference: <https://linuxhandbook.com/tag/bash-beginner/>
+
+Ahmed Alkabary: <https://linuxhandbook.com/author/kabary/>
