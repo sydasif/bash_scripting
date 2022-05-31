@@ -79,18 +79,22 @@ If you want to run your bash script from anywhere, as if it were a regular Linux
 
 First, get the location of your script's directory (assuming you are in the same directory), use the PWD command:
 
-pwd
-
-Use the export command to add your scripts directory to the PATH variable.
-
 ```terminal
-export PATH=$PATH:/home/user/scripts
+pwd
 ```
 
-Notice that I have appended the 'scripts directory' to the very end to our PATH variable. So that the custom path is searched after the standard directories.
-The moment of truth is here; run hello.sh:
+Use the export command to add your bash_scripting directory to the PATH variable.
+
+```terminal
+export PATH=$PATH:~/git_repo/bash_scripting
+```
+
+Notice that I have appended the 'bash_scripting directory' to the very end to our PATH variable. So that the custom path is searched after the standard directories.
+The moment of truth is here; run _hello.sh_:
 
 ```terminal
 hello.sh
 Hello, World!
 ```
+
+It works! This takes us to the end of this tutorial.
